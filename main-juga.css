@@ -8,11 +8,28 @@ html {
     background-color: rgb(202, 202, 255);
 }
 
-h2 {
+h2.h2-article1 {
     font-style: italic;
 }
 
 h1 {
      background-color: rgb(255, 208, 216);
      box-shadow: 3, aqua;
+}
+
+div.nyoba-background-contain {
+    box-sizing: border-box;
+    inline-size: 30em;
+    background-image: url(bg-1.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+div.nyoba-bg-position {
+    background-image: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left 20em bottom 2.5em;
+    border: 1px solid black;
+    
 }
