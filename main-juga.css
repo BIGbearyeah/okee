@@ -4,7 +4,7 @@ body {
     font-size: 18px;
 }
 
-html {
+:root {
     background-color: rgb(202, 202, 255);
 }
 
@@ -29,7 +29,27 @@ div.nyoba-background-contain {
 div.nyoba-bg-position {
     background-image: url(bg-1.jpg);
     background-repeat: no-repeat;
-    background-position: left 20em bottom 2.5em;
+    background-position: left 50% bottom 50%;
+    opacity: ;
     border: 1px solid black;
     
+}
+
+article p {
+    
+    inline-size: 30em;
+    block-size: 10em;
+    border: 3px solid blue;
+    overflow-wrap:break-word;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+
+button {
+    all: inherit;
+    
+}
+
+button:hover {
+    color: red;
 }
